@@ -23,8 +23,15 @@ body{
 
 .container .title {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 2.3rem;
     word-spacing: 3px;
+}
+.container h1 {
+    font-size: 3rem;    
+}
+
+.container h3 {
+    font-size: 6px;
 }
 
 .container .title span{
@@ -102,6 +109,7 @@ body{
     margin-top: -10px;
     display: flex;
     color: #fff;
+    font-family: sans-serif;
 }
 
 .container .btn{
@@ -118,6 +126,34 @@ body{
     border-radius: 5px;
     font-size: 1rem;
 
+}
+
+.container footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    padding: 0;
+}
+.container footer i {
+    font-size: 40px;
+    color: #ccd0cf;
+}
+.container footer i:hover {
+    color:#019f55;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.container p {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
 @media (max-width :460px) {
