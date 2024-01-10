@@ -136,9 +136,16 @@ body{
     height: 80px;
     padding: 0;
 }
-.container footer i {
-    font-size: 40px;
+.container .footer a {
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
     color: #ccd0cf;
+}
+.container .footer i {
+    color: #019f55;
+    margin-top: 30px;    
 }
 .container footer i:hover {
     color:#019f55;
