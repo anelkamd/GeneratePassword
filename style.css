@@ -167,11 +167,12 @@ body{
         font-size: 0.9rem;
         margin-right: -20px;
     }
-
+    
     .container .btn button i{
-        font-size: 1rem;
+        font-size: 6px;
         left: 0;
-        margin-right: 1px;
+        margin-right: 1px; 
+        transform: scale(0.0);       
     }
     
 }
