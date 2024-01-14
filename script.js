@@ -3,7 +3,7 @@ const button = document.querySelector('.btn');
 const copyButton = document.querySelector('.copy-btn');
 const messageBox  = document.getElementById('message-box');
 
-const length = 9;
+const length = 13;
 
 const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const lowerCase =  upperCase.toLowerCase();
